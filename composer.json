@@ -32,7 +32,6 @@
     "nette/di": "<2.2 || >=3"
   },
   "require-dev": {
-    "tracy/tracy": "*",
     "nette/di": "*",
     "nette/bootstrap": "^2.3",
     "nette/application": "^2.3",
