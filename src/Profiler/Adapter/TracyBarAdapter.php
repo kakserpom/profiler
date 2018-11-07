@@ -48,7 +48,7 @@ class TracyBarAdapter implements IBarPanel
     /**
      * @inheritdoc
      */
-    public function getTab()
+    public function getTab(): ?string
     {
         $countOfProfiles = count($this->profilerService->getProfiles());
         return sprintf(
@@ -64,7 +64,7 @@ class TracyBarAdapter implements IBarPanel
     /**
      * @inheritdoc
      */
-    public function getPanel()
+    public function getPanel(): ?string
     {
         $table = "<style>.tracy-addons-profiler-hidden{display:none}.tracy-addons-profiler-bar{display:inline-block;margin:0;height:0.8em;}</style>";
         $table .= "<table>";
