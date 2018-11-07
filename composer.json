@@ -1,5 +1,5 @@
 {
-  "name": "kakserpom/profiler",
+  "name": "netpromotion/profiler",
   "description": "Profiler with adapter for Tracy",
   "license": "MIT",
   "keywords": [
@@ -28,7 +28,6 @@
   },
   "conflict-note": "We are using 'conflict' combined with 'require-dev' to '*' as soft require.",
   "conflict": {
-    "tracy/tracy": "<2.2 || >=3",
     "nette/di": "<2.2 || >=3"
   },
   "require-dev": {
